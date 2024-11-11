@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WasaBox - Info</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="wblogo.png" alt="Logo"> <!-- Lisää logon polku tähän -->
+    </header>
+    <div class="container">
+        <div class="column" id="viikko-ohjelma">
+            <h2>Viikko-ohjelma</h2>
+            <textarea id="viikko-ohjelma-teksti"></textarea>
+            <button class="custom-button" onclick="tallenna('viikko-ohjelma-teksti')">Tallenna</button>
+            <button class="custom-button" onclick="tyhjaa('viikko-ohjelma-teksti')">Tyhjennä</button>
+        </div>
+        <div class="column" id="tiedotteet">
+            <h2>Tiedotteet</h2>
+            <textarea id="tiedotteet-teksti"></textarea>
+            <button class="custom-button" onclick="tallenna('tiedotteet-teksti')">Tallenna</button>
+            <button class="custom-button" onclick="tyhjaa('tiedotteet-teksti')">Tyhjennä</button>
+        </div>
+        <div class="column" id="muuta">
+            <h2>Muuta</h2>
+            <textarea id="muuta-teksti"></textarea>
+            <button class="custom-button" onclick="tallenna('muuta-teksti')">Tallenna</button>
+            <button class="custom-button" onclick="tyhjaa('muuta-teksti')">Tyhjennä</button>
+        </div>
+
+    </div>
+    <footer>
+        <img id="footer-logo" src="wblogo2.png"Footer Logo"> <!-- Lisää alalogon polku tähän -->
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
