@@ -30,6 +30,7 @@ header img, footer img {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 80px;
+   flex-wrap: wrap; /* Lisää flex-wrap, jotta palstat eivät levittäydy päällekkäin */
 }
 
 .column {
