@@ -44,6 +44,10 @@ header img, footer img {
     box-sizing: border-box; /* Estää palstojen venymisen yli reunojen */
 }
 
+.column h2 {
+    text-align: center; /* Keskittää otsikot */
+}
+
 textarea {
     width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
