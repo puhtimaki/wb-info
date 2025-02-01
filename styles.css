@@ -11,7 +11,7 @@ header {
 }
 
 header img {
-  /*  max-width: 300px;*/
+   max-width: 300px;
     height: auto;
 }
 
@@ -54,7 +54,7 @@ textarea {
     height: 400px;
     font-weight: 600;
     margin-bottom: 10px;
-    font-size: 40px; 
+    font-size: 45px; 
     background-color: #222; 
     color: white; 
     resize:vertical; 
