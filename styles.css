@@ -22,7 +22,7 @@ header, footer {
 }
 
 header img, footer img {
-    max-width: 100px;
+    /*max-width: 100px;*/
     height: auto;
 }
 
@@ -34,7 +34,7 @@ header img, footer img {
 }
 
 .column {
-    width: 30%;
+    width: 50%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
